@@ -12,7 +12,11 @@
 - Average heart rate: The user's average heart rate over the last 24 hours
  */
 
-
+let name : String
+var age : Int
+var numberOfSteps : Int
+var goalSteps : Int
+var avg_HeartRate : Int
 /*:
  Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
  

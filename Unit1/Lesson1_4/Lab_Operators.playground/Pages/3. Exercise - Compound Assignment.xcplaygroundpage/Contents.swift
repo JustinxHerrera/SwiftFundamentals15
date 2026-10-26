@@ -3,7 +3,11 @@
  
  Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
-
+var startingValue = 10
+startingValue += 5
+print(startingValue)
+startingValue *= 2
+print(startingValue)
 
 /*:
  Create a variable called `pennyBank` that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your penny bank.
@@ -16,7 +20,28 @@
  
  Print the balance of your penny bank after each step.
  */
+//start with $0
+var pennyBank = 0.00
 
+//neighbor gives $10
+pennyBank += 10
+print(pennyBank)
+
+//earn $20 more
+pennyBank += 20
+print(pennyBank)
+
+//spends half
+pennyBank /= 2
+print(pennyBank)
+
+//triples whats left
+pennyBank *= 3
+print(pennyBank)
+
+//spends $3
+pennyBank -= 3
+print(pennyBank)
 
 /*:
 [Previous](@previous)  |  page 3 of 8  |  [Next: App Exercise - Counting](@next)

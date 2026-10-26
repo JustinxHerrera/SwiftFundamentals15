@@ -10,11 +10,15 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("Legacy by Eminem")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
+print("I used to be the type of kid")
+print("that would always think the sky is fallin'")
+print("why am i so differently wired? am i a martian?")
+print("what kind of twisted experiment am i involved in?")
 
 
 
